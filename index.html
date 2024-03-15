@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>PASH</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        <script>
+            function getNearbyMerchants() {
+                // Use Geolocation API to get user's current location
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function(position) {
+                        // Send user's location to backend server
+                        var latitude = position.coords.latitude;
+                        var longitude = position.coords.longitude;
+                        
+                        // Make AJAX request to backend endpoint with user's location
+                        // Handle response and display list of nearby merchants
+                    });
+                } else {
+                    // Geolocation not supported by browser
+                    alert("Geolocation is not supported by this browser.");
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+      
+        </style>
+        
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="pash2.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"></i>
+        
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Analysis</a></li>
+                <li><a href="">BloG</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+              
+        </div>
+        <i class="fa fa-bars"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Big Data Analysis</h1>
+        <p>Elevate your business strategy with our comprehensive big data analysis services,<br>driving informed decision-making and innovation</p>
+        <a href="" class="hero-btn">Visit us To know More</a>
+    </div>
+</section>
+<section class="course">
+    <h1>Business analysis</h1>
+
+        <div class="row">
+            <div class="course-col"><br>
+                <h3>requirements</h3>
+                <iframe src="Business Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+<br>
+            </div>
+        </div>
+        <h1>User analysis</h1>
+
+        <div class="row">
+            <div class="course-col"><br>
+                <h3>requirements</h3>
+                <iframe src="User Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+
+            </div>
+        </div>
+        <h1>Review analysis</h1>
+
+        <div class="row">
+            <div class="course-col"><br>
+                <h3>requirements</h3>
+                <iframe src="Review Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+<br>
+            </div>
+        </div>
+        <h1>Rating analysis</h1>
+
+        <div class="row">
+            <div class="course-col"><br>
+                <h3>requirements</h3>
+                <iframe src="Rating Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+<br>
+            </div>
+        </div>
+        <h1>Check-in analysis</h1>
+
+        <div class="row">
+            <div class="course-col"><br>
+                <h3>requirements</h3>
+                <iframe src="Check-in Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+<br>
+            </div>
+        </div>
+        <h1>Comprehensive Analysis</h1>
+
+        <div class="row">
+            <div class="course-col"> <br>
+
+                <h3>requirements</h3>
+                <iframe src="Comprehensive Analysis - Zeppelin.html" width="100%" height="600"></iframe>
+
+            </div>
+        </div>
+    
+
+</section>
+</section>
+<!-----javascript for opening menu----->
+<script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<section class="footer">
+
+    <h4>About us</h4>
+    <p> we are a group of students who tried to create something </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+    </div>
+    
+
+</section>
+
+    </body>
+</html>
